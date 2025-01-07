@@ -1,0 +1,91 @@
+@media only screen and (min-width:200px) and (max-width:575px){
+    header{
+        flex-direction: column;         /* flex dire column ke case me align items:stretch width ki tarah kaam karta hai*/
+        align-items: stretch;
+        gap: 15px;
+        padding: 10px;
+    }
+    .headerLeft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .headerAddress{
+        padding: 10px;
+    }
+    .headerAddress p {
+        font-size: 12px;
+    }
+    .headerAddress h3 {
+        font-size: 13px;
+    }
+    .searchBox button{
+        padding: 10px;
+    }
+    .headerBtn{
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        margin-right: 0px;
+        justify-content: center;
+    }
+
+    .bannerSection{
+        display: none;
+    }
+
+    .orderBanner{
+        padding: 10px;
+        flex-direction: column;
+    }
+
+    .categoryItems{
+        flex-basis: 25%;
+    }
+
+    .productItems{
+        flex-basis: 49%;
+    }
+
+    .productSection{
+        padding: 30px 10px;
+    }
+
+    footer{
+        padding: 0;
+    }
+    .footer-mid-row1{
+        padding: 10px;
+        flex-direction: column;
+    }
+    
+    .useFullLinks2{
+        flex-direction: column;
+    }
+
+    .footer-mid-row1-right{
+        margin-bottom: 25px;
+    }
+
+    .footer-mid-row3 {
+        padding: 0px 10px;
+        margin-bottom: 50px;
+    }
+
+    .footer-mid-row2{
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:576px) and (max-width:991px){
+
+}
